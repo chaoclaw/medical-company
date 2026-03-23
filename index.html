@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扬州恺信康医疗科技有限公司</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .nav {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+        }
+        .nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 15px 0;
+        }
+        .nav li {
+            margin: 0 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #007bff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .section {
+            margin-bottom: 60px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #007bff;
+            text-align: center;
+        }
+        .about {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-card h3 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .contact {
+            background: #f8f9fa;
+            padding: 60px 20px;
+        }
+        .contact-info {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>扬州恺信康医疗科技有限公司</h1>
+        <p>Yangzhou Kaixinkang Medical Technology Co., Ltd.</p>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#products">产品中心</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>扬州恺信康医疗科技有限公司是一家专注于医疗器械研发、生产和销售的高新技术企业。我们致力于为全球客户提供优质的医疗产品和解决方案。</p>
+        </div>
+    </section>
+    
+    <section id="products" class="container">
+        <h2>产品中心</h2>
+        <div class="products">
+            <div class="product-card">
+                <h3>医用防护用品</h3>
+                <p>一次性医用口罩、防护服、手套等个人防护装备，满足医疗机构的各种需求。</p>
+            </div>
+            <div class="product-card">
+                <h3>诊断设备</h3>
+                <p>便携式诊断仪器、检测设备，为医疗诊断提供精准支持。</p>
+            </div>
+            <div class="product-card">
+                <h3>康复器械</h3>
+                <p>康复理疗设备、老年护理用品，帮助患者早日恢复健康。</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <div class="contact-info">
+                <p><strong>地址：</strong>江苏省扬州市</p>
+                <p><strong>电话：</strong>133-3333-3333</p>
+                <p><strong>邮箱：</strong>info@kaixinkang.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2026 扬州恺信康医疗科技有限公司 版权所有</p>
+    </footer>
+</body>
+</html>
